@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev --port 3001",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@microsoft/applicationinsights-react-js": "^17.0.4",
+    "@microsoft/applicationinsights-web": "^3.0.8",
+    "next": "latest",
+    "node-fetch": "^3.3.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
